@@ -1,0 +1,69 @@
+/* Box */
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.reversed {
+  flex-direction: row-reverse;
+}
+
+.section > div {
+  width: 45%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.section-starter {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Margins & Paddings */
+.mt-190 {
+  margin-top: 190px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mb-45 {
+  margin-bottom: 45px;
+}
+
+/* Buttons */
+.btn {
+  width: 200px;
+  height: 56px;
+  display: block;
+  border-radius: 55px;
+  border: none;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 60px;
+  /* padding: 0px 40px; */
+  cursor: pointer;
+}
+
+.btn-filled {
+  background-color: var(--blue-color);
+  color: #fff;
+}
+
+.btn-outline {
+  border: 1.4px solid var(--blue-color);
+  color: var(--blue-color);
+  background-color: #fff;
+}
+
+.btn-noline {
+  text-align: left;
+  color: var(--blue-color);
+}
